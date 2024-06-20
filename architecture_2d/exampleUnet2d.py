@@ -45,10 +45,10 @@ class up_conv2D_block(nn.Module):
         x = self.up_conv2D(x)
         return x
 
-class SA_UNet_8x8(nn.Module):
+class UNet_2d(nn.Module):
 
     def __init__(self, in_ch_SA=3, out_ch_SA=4):
-        super(SA_UNet_8x8, self).__init__()
+        super(UNet_2d, self).__init__()
 
         filters_2D = [16, 16*2, 16*4, 16*8, 16*16, 16*16] # = [16, 32, 64, 128, 256, 512]
 
@@ -133,7 +133,7 @@ class SA_UNet_8x8(nn.Module):
 
 def main():
 
-    model = SA_UNet_8x8()
+    model = UNet_2d()
 
     print("****** Model Summary ******")
 
