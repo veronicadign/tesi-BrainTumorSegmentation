@@ -20,6 +20,7 @@ gast==0.5.4
 google-pasta==0.2.0
 grpcio==1.62.2
 h5py==3.11.0
+huggingface-hub==0.23.4
 idna==3.7
 importlib_metadata==7.1.0
 importlib_resources==6.4.0
@@ -65,12 +66,15 @@ pyparsing==3.1.2
 python-dateutil==2.9.0.post0
 pytz==2024.1
 pywin32==306
+PyYAML==6.0.1
 pyzmq==26.0.0
+regex==2024.5.15
 requests==2.31.0
 rich==13.7.1
+safetensors==0.4.3
 scikit-learn==1.4.2
 scipy==1.13.0
-segmentation-models-pytorch @ git+https://github.com/jlcsilva/segmentation_models.pytorch@44a5593bfb1c8f2a3f5f23303c02e6f7e2f11170
+segmentation_models_pytorch @ git+https://github.com/jlcsilva/segmentation_models.pytorch@44a5593bfb1c8f2a3f5f23303c02e6f7e2f11170
 six==1.16.0
 split-folders==0.5.1
 stack-data==0.6.3
@@ -83,6 +87,7 @@ tensorflow-io-gcs-filesystem==0.31.0
 termcolor==2.4.0
 threadpoolctl==3.4.0
 timm==0.4.12
+tokenizers==0.19.1
 torch==2.2.2
 torchmetrics==1.4.0.post0
 torchsummary==1.5.1
@@ -90,6 +95,7 @@ torchvision==0.17.2
 tornado==6.4
 tqdm==4.66.2
 traitlets==5.14.2
+transformers==4.42.4
 typing_extensions==4.11.0
 tzdata==2024.1
 urllib3==2.2.1
